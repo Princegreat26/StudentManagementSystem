@@ -1,0 +1,38 @@
+/* body {
+  background: url("images/pexels-pixzium-18005470.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  filter: blur(0.5px);
+} */
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,20 @@
+/* body {
+  background: url("images/pexels-pixzium-18005470.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  filter: blur(5px);
+} */
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+

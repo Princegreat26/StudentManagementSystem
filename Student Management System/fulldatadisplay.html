@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Data Display</title>
+    <link rel="stylesheet" href="css/data.css" />
+    <style>
+      .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border-left-color: #09f;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Details</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Middle Name</th>
+          <th>Last Name</th>
+          <th>Email Address</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+          <th>Department</th>
+          <th>Registration Number</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="fullDataTableBody">
+        <!-- Data will be inserted here -->
+      </tbody>
+    </table>
+    <div class="back-arrow" onclick="goBack()">← Back</div>
+
+    <script src="js/fulldatadisplay.js"></script>
+  </body>
+</html>
